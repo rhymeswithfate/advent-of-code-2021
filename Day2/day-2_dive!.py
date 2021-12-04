@@ -37,7 +37,7 @@ def dive_2(input):
         elif direction[0] == "down":
             aim = aim + int(direction[1])
         elif direction[0] == "up":
-            aim = aim- int(direction[1])
+            aim = aim - int(direction[1])
     
     product = depth * horz
     print(product)
